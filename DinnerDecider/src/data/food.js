@@ -7,46 +7,43 @@ const foods = {
     steak: {
     id: 2,
     name: "Steak",
-    image: "https://cdn.pixabay.com/photo/2016/03/05/19/02/abstract-1238247_1280.jpg",
+    image: "https://cdn.pixabay.com/photo/2024/08/04/15/47/ai-generated-8944735_1280.jpg",
 },
 porkChops: {
     id: 3,
     name: "Pork Chops",
-    image: "https://cdn.pixabay.com/photo/2017/07/16/10/43/pork-2507268_1280.jpg",
+    image: "https://tipbuzz.com/wp-content/uploads/Pan-Fried-Pork-Chops-1.jpg",
 },
 meatloaf: {
     id: 4,
     name: "Meatloaf",
-    image: "https://cdn.pixabay.com/photo/2018/06/18/16/05/meatloaf-3483050_1280.jpg",
+    image: "https://irepo.primecp.com/2015/08/234206/Old-Fashioned-Meat-Loaf_MASTER_ID-1162245.jpg?v=1162245",
 },
 burgers: {
     id: 5,
     name: "Burgers",
-    image: "https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg",
+    image: "https://cdn.pixabay.com/photo/2019/01/21/12/47/burger-3946012_1280.jpg",
 },
-meatballs: {
+spaghetti: {
     id: 6,
-    name: "Meatballs",
-    image: "https://cdn.pixabay.com/photo/2017/05/07/08/56/meatballs-2291908_1280.jpg",
+    name: "spaghetti",
+    image: "https://www.fortatkinsonclub.org/wp-content/uploads/2019/08/Spaghetti_landscape-scaled.jpg",
 },
 fish: {
     id: 7,
     name: "Fish",
-    image: "https://cdn.pixabay.com/photo/2016/11/18/15/05/fish-1835011_1280.jpg",
+    image: "https://myhomedishes.com/wp-content/uploads/2024/11/steelhead-fish-recipe-1.jpg",
 },
 shrimp: {
     id: 8,
     name: "Shrimp",
-    image: "https://cdn.pixabay.com/photo/2016/03/05/19/02/shrimp-1238248_1280.jpg",
+    image: "https://www.eatwell101.com/wp-content/uploads/2019/07/quick-Shrimp-Recipe-2.jpg",
 },
-turkeyDishes: {
-    id: 9,
-    name: "Turkey Dishes",
-    image: "https://cdn.pixabay.com/photo/2016/11/29/09/32/turkey-1868527_1280.jpg",
-},
+
 chicken: {
-    id: 10,
+    id: 9,
     name: "Chicken",
-    image: "https://cdn.pixabay.com/photo/2017/06/02/18/24/chicken-2364693_1280.jpg",
+    image: "https://natashaskitchen.com/wp-content/uploads/2020/11/Whole-Chicken-5.jpg",
 },
 }
+export default foods;
