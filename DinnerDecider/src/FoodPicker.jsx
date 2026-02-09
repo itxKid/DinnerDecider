@@ -1,6 +1,7 @@
 import { useState } from "react";
 import foods from "./data/food.js";
 
+
 //always random
 function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
@@ -19,9 +20,9 @@ const [winnerHistory, setWinnerHistory] = useState([]);
 //final winner
 if (remainingFoods.length === 1) {
     return (
-        <div>
+        <div className="winner">
             <h1>Winner!</h1>
-            <img src={remainingFoods[0].image} width="250" />
+            <img className="winner-img"src={remainingFoods[0].image} />
             <h2>{remainingFoods[0].name}</h2>
         </div>
     );
@@ -42,17 +43,20 @@ function handleClick(winner) {
 
   return (
     <div className = "image-container">
+      
       <img 
         class = "image1"
         src={foodOne.image}
         onClick={() => handleClick(foodOne)}
       />
+      <h1 class = "image1-text">{foodOne.name}</h1>
 
       <img
         class = "image2"
         src={foodTwo.image}
         onClick={() => handleClick(foodTwo)}
       />
+      <h1 class = "image2-text">{foodTwo.name}</h1>
     </div>
   );
 }

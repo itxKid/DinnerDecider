@@ -1,14 +1,51 @@
 
 .image-container {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  width: 90vw;
+  height: 90vh;
 }
 
 .image1,
 .image2 {
-  width: 50%;
-  height: 100%;
+  width: 45%;
+  height: 80%;
   object-fit: cover;
   cursor: pointer;
+  border-radius: 85px;
+  border-style: solid;
+  border-width: 3px;
+}
+.image1{
+position: fixed;
+left: 50px;
+border-color: red;
+bottom: 50px;
+}
+.image2{
+position: fixed;
+right: 50px;
+bottom: 50px;
+border-color: blue;
+}
+.image1-text{
+  position: absolute;
+  left: 22%;
+  top: 50px;
+  text-align: center;
+  color:red;
+}
+.image2-text{
+  position: absolute;
+  right: 22%;
+  top: 50px;
+  text-align: center;
+  color: blue;
+}
+.winner{
+  text-align: center;
+
+}
+.winner-img{
+  border-radius: 25px;
+  width: 500px;
 }

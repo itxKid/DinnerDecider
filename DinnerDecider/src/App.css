@@ -1,3 +1,13 @@
+h1.title{
+                background: linear-gradient(to right, red, blue);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                text-align: center;
+                word-spacing: 60px;
+                font-size: 35px;
+}
 
-
-
+body{
+    background: linear-gradient(to left, red, blue);
+}
